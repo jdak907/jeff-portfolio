@@ -39,7 +39,7 @@
 	  	
 	});
 
-	$('.nav-mobile-list li a[href="#"]').on('click',function(){
+	$('.nav-mobile-list li a[href="index.html"]').on('click',function(){
 		$(this).closest('li').toggleClass('current');
 		$(this).closest('li').children('ul').slideToggle(200);
 		return false;
